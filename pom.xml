@@ -52,8 +52,8 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
-                        <parallel>methods</parallel>
-                        <useUnlimitedThreads>true</useUnlimitedThreads>
+<!--                        <parallel>methods</parallel>-->
+<!--                        <useUnlimitedThreads>true</useUnlimitedThreads>-->
                         <include>**/*TestRunner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>

@@ -17,10 +17,10 @@ public class WebDriverManager {
             switch (browser.toLowerCase()) {
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
-//                        chromeOptions.addArguments("--headless");
-//                        chromeOptions.addArguments("--disable-gpu");
-//                        chromeOptions.addArguments("--no-sandbox");
-//                        chromeOptions.addArguments("--disable-dev-shm-usage");
+                        chromeOptions.addArguments("--headless");
+                        chromeOptions.addArguments("--disable-gpu");
+                        chromeOptions.addArguments("--no-sandbox");
+                        chromeOptions.addArguments("--disable-dev-shm-usage");
                     driver = new ChromeDriver(chromeOptions);
                     break;
                 case "firefox":
