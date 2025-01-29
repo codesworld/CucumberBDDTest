@@ -37,8 +37,7 @@ public class HomePage extends BasePage {
     }
 
     public String getWelcomeMessageTexts() {
-        String message = nameOfUser.getText();
-        return message;
+        return nameOfUser.getText();
     }
 
     public List<String> getCategoriesTexts() {
