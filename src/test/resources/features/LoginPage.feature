@@ -8,10 +8,10 @@ Feature: Login Page Functionality
     Then I should see the "<message>"
 
     Examples:
-      | username      | password       | message           |
-      | testuser       | testpassword   | Welcome   |
-      | wronguser      | testpassword   | Wrong password   |
-      | testuser       | wrongpassword  | Wrong password   |
+      | username       | password       | message          |
+      | nightmare      |nightmare       | Welcome          |
+      | wronguser      | nightmare      | Wrong password   |
+      | nightmare      | wrongpassword  | Wrong password   |
       | wronguser      | wrongpassword  | Wrong password   |
       | wronguser      |                | Please fill out Username and Password.   |
       |                | wrongpassword  | Please fill out Username and Password.   |
